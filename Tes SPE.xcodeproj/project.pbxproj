@@ -15,6 +15,9 @@
 		799A286C2555262C0039D268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799A286A2555262C0039D268 /* LaunchScreen.storyboard */; };
 		799A28772555262C0039D268 /* Tes_SPETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A28762555262C0039D268 /* Tes_SPETests.swift */; };
 		799A28822555262C0039D268 /* Tes_SPEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A28812555262C0039D268 /* Tes_SPEUITests.swift */; };
+		799A28942555267A0039D268 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A28932555267A0039D268 /* HomeViewController.swift */; };
+		799A289C255527AC0039D268 /* cekTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A289B255527AC0039D268 /* cekTable.swift */; };
+		799A28A625552E670039D268 /* tableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A28A525552E670039D268 /* tableData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		799A287D2555262C0039D268 /* Tes SPEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tes SPEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		799A28812555262C0039D268 /* Tes_SPEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tes_SPEUITests.swift; sourceTree = "<group>"; };
 		799A28832555262C0039D268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799A28932555267A0039D268 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		799A289B255527AC0039D268 /* cekTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cekTable.swift; sourceTree = "<group>"; };
+		799A28A525552E670039D268 /* tableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		799A285E2555262A0039D268 /* Tes SPE */ = {
 			isa = PBXGroup;
 			children = (
+				799A2892255526670039D268 /* Home */,
 				799A285F2555262A0039D268 /* AppDelegate.swift */,
 				799A28612555262A0039D268 /* SceneDelegate.swift */,
 				799A28632555262A0039D268 /* ViewController.swift */,
@@ -126,6 +133,16 @@
 				799A28832555262C0039D268 /* Info.plist */,
 			);
 			path = "Tes SPEUITests";
+			sourceTree = "<group>";
+		};
+		799A2892255526670039D268 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				799A28932555267A0039D268 /* HomeViewController.swift */,
+				799A289B255527AC0039D268 /* cekTable.swift */,
+				799A28A525552E670039D268 /* tableData.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799A289C255527AC0039D268 /* cekTable.swift in Sources */,
 				799A28642555262A0039D268 /* ViewController.swift in Sources */,
 				799A28602555262A0039D268 /* AppDelegate.swift in Sources */,
 				799A28622555262A0039D268 /* SceneDelegate.swift in Sources */,
+				799A28A625552E670039D268 /* tableData.swift in Sources */,
+				799A28942555267A0039D268 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
